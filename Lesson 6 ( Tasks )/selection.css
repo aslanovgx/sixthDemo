@@ -1,0 +1,15 @@
+option:nth-child(3n-1) {
+    color: blue;
+}
+
+option:nth-child(3n) {
+    color: red;
+}
+
+option:nth-child(3n+1) {
+    color: green;
+}
+
+.default {
+    color: black !important ;
+}

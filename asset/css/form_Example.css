@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    height: 100vh;
+}
+
+.form_register {
+    width: 32%;
+    margin: 40px auto;
+    height: 70vh;
+}
+
+.form_register form input {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 5px;
+    background-color: transparent;
+    /* default background-a gore duzeldir */
+    /* box-shadow: 1px 0px 1px 0px; */
+    /* box-shadow - kenarliqlarin kolgesini qurur */
+}
+
+.form_register form input:focus {
+    outline: none;
+}
+
+.form_register form input::placeholder {
+    color: rgb(71, 69, 69);
+    font-size: 1em;
+}
+
+.form_register form label {
+    color: white;
+    font-size: 1em;
+}
+
+.form_register form button {
+    width: 100%;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.form_register form button:active {
+    background-color: royalblue;
+    color: blueviolet;
+}
+
+.form_register form button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid transparent;
+    /*transform:translateY(10px);
+    Yoxuuzre10pxasagidusur.*/transform: translate(10px, 20px);
+}
+
+.form_register form input[type="radio"] {
+    width: auto !important;
+    display: inline-block !important;
+}
+
+.type p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

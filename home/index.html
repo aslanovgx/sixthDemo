@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sixth Lesson (Forms)</title>
+    <link rel="stylesheet" href="../asset/css/style.css">
+</head>
+
+<body>
+    <!-- HTML Forms -->
+    <!-- label ve inputlari form-suz yazmaq duzgun deyil -->
+    <!-- placeholde="" - inpuutun icerisinde yazir, amma label inputdan kenarda -->
+
+
+
+    <form class="label" action="" method="post">
+
+        <label for="name">Name..</label>
+        <input type="text" name="name" id="name">
+
+        <label for="surname">Surname..</label>
+        <input type="text" name="surname" id="surname">
+
+        <label for="age">Age..</label>
+        <input type="number" name="age" id="age">
+
+    </form>
+
+    <form>
+        <!-- <form action="" method="post"> -->
+        <!-- action="" hara gondereceyimizi gosterir -->
+        <!-- method="post" menasi - melumatlari database-e gonder -->
+
+        <input type="text" name="name" id="name" placeholder="Name" required>
+        <!-- required - eger hansisa input-u bos qoysaq xeberdarliq verecek -->
+        <!-- value="" - default deyer yazir -->
+
+        <input type="text" min="2" max="10" maxlength="20" name="surname" id="surname" placeholder="Surname">
+        <!-- min, max sadece bildirir, maxlength verdiyi saydan artiq yazmaga qoymur -->
+
+        <input value="20" type="number" name="age" id="age" placeholder="Age">
+
+        <input type="file" multiple>
+        <!-- multiple verdikde bir nece sekil secmek olur -->
+
+<!--    <input type="radio" name="black" id="black">
+        <input type="radio" name="red" id="red">
+        name-leri ferqli verende 2 sini de secmek olur 
+-->
+
+        <input type="radio" name="black" id="black">
+        <input type="radio" name="black" id="red">
+
+        <label for="">OK</label>
+        <input type="checkbox">
+
+        <label for="">NO</label>
+        <input type="checkbox">
+
+        <input type="number" name="" id="" step="5">
+        <!-- Yeni, step="5" verdikde 5 5 artir ve ya azalir. -->
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write the own messages.. "></textarea>
+
+        <input type="text" placeholder="Just look" readonly>
+        <!-- readonly - qoydugumuzda sadece oxuyur, yazi yaza bilmirik -->
+
+        <button type="submit">Register</button>
+
+        
+
+    </form>
+
+
+    <div class="select_items">
+        <select name="" id="">
+
+            <option disabled value="men">Men</option>
+            <!-- disabled yazdigimizda secmeye imkan vermir -->
+            <option value="women">Women</option>
+            <option selected value="kids">Kids</option>
+            <!-- selected - ilk gorsenen value-ni gosterir-->
+
+        </select>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

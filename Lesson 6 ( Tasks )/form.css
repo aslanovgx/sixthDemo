@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 36%;
+}
+
+.buttons {
+    margin-top: 1em;
+}
+
+.div3 fieldset div {
+    margin: 1em 0;
+}

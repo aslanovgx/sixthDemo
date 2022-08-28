@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of Form</title>
+    <link rel="stylesheet" href="../asset/css/form_Example.css">
+</head>
+
+<body>
+    <div class="form_register">
+
+        <form action="">
+            <div class="name">
+                <label for="">Name</label>
+                <input type="text" placeholder="Write your name.." required min="3" max="20">
+            </div>
+
+            <div class="surname">
+                <label for="">Surname</label>
+                <input type="text" placeholder="Write your surname.." required min="3" max="20">
+            </div>
+
+            <div class="age">
+                <label for="">Age</label>
+                <input type="number" placeholder="Write your age.." required min="0" max="200">
+            </div>
+
+            <div class="email">
+                <label for="">E-mail</label>
+                <input type="email" placeholder="Write your e-mail.." required>
+            </div>
+
+            <div class="password">
+                <label for="">Password</label>
+                <input type="password" placeholder="Write your password.." required>
+            </div>
+
+            <div class="type">
+
+                <p>Your gender:</p>
+
+                <label for="">Male</label>
+                <input type="radio" name="gender">
+
+                <label for="">Female</label>
+                <input type="radio" name="gender">
+
+            </div>
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
